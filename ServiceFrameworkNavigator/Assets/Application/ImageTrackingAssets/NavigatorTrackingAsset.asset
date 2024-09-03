@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae3b39367a813f74aab3d0731a090115, type: 3}
+  m_Name: NavigatorTrackingAsset
+  m_EditorClassIdentifier: 
+  AssetName: RealityCollective
+  ImageTrackingTexture: {fileID: 2800000, guid: 700dc4646a81a6e49975f7b8adf58502, type: 3}
+  AssetPrefab: {fileID: 1115731020575179826, guid: 82877b890796d02459536425812ed694, type: 3}

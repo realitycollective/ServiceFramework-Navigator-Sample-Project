@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e313293fba4e5a946adc1cc90678c91c, type: 3}
+  m_Name: ServiceProvidersProfile
+  m_EditorClassIdentifier: 
+  configurations:
+  - instancedType:
+      reference: 681973ad-d88f-4b94-b8e6-0f5aabba3bb6
+    name: Scene Loader
+    priority: 0
+    profile: {fileID: 11400000, guid: b2b27df852f51ac44a1f3c642f7f2be0, type: 2}
+    platformEntries:
+      runtimePlatforms:
+      - reference: 9869b29e-43bb-44cc-ae49-eb5c913263f9
+  - instancedType:
+      reference: 8074500d-c749-47c0-b40a-a16994cbbc19
+    name: Application Settings
+    priority: 0
+    profile: {fileID: 11400000, guid: 2c0ddc95ccd39b74db6d2ec5580e5dfe, type: 2}
+    platformEntries:
+      runtimePlatforms:
+      - reference: 9869b29e-43bb-44cc-ae49-eb5c913263f9
+  - instancedType:
+      reference: c055102f-5204-42ed-a4d8-f80d129b6bbd
+    name: Spatial Persistence Service
+    priority: 1
+    profile: {fileID: 11400000, guid: 3a8e3b4a596338d4fbb719064f152b5d, type: 2}
+    platformEntries:
+      runtimePlatforms:
+      - reference: e0d70d45-a52a-4b03-bcdf-8fe367555516
+      - reference: 99428b70-e46a-4a1a-82b3-4e29bac872bd
+  initializeOnPlay: 0
+  doNotDestroyServiceManagerOnLoad: 1
+  sceneServiceConfiguration: []
